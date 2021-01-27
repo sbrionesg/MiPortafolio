@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio Web Proyecto">
+    <meta name="keywords" content="Proyecto, 5to Semestre, UNEMI">
+    <meta name="author" content="Anthony Josue Acosta Reategui">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#contacto">Contacto</a>
+            <a href="#acercade">Acerca de</a>
+            <a href="#proyecto">Proyecto</a>
+        
+        </nav>
+        <section class="textos-header">
+            <h1>Hola, soy Anthony Acosta</h1>
+            <h2>Sigo vivo</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+
+    <section class="bloque1">
+        <img src="./img/yo.jpg" alt="">
+        <article class="textos">
+            <h1>Mi nombre es: Anthony Acosta </h1>
+            <h2>Estudiante Universitario</h2>
+            <a href="#contacto"> Contacto </a>
+        </article>
+        
+    </section>
+
+    <section class="contenedor reali_stud">
+        <a href="acercade" id="acercade"></a>
+        <h2 class="titulo">Estudios Realizados</h2>
+        <div class="estudios_reali">
+            <div class="cont-texto">
+                <img class="img-estudios_reali" src="./img/est.jpg" alt="">
+                <table border="1" class="tabla">
+                    <thead>
+                        <tr>
+                            <th>Primaria</th>
+                            <th>Secundaria</th>
+                            <th>Superior</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="ins">Escuela</td>
+                        <td class="ins">Colegio</td>
+                        <td class="ins">Universidad</td>
+                      </tr>
+                      <tr>
+                        <td class="noins">Miguel Hernandez</td>
+                        <td class="noins">Nacional Naranjito</td>
+                        <td class="noins">Universidad Estatal de Milagro</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor Habili_ad">
+        <h2 class="titulo">Habilidades adquiridas</h2>
+        <div class="Habili_ad">
+            <img class="img-habili_ad" src="./img/hab.jpg" alt="">
+            <div>
+                <h4 class="habtext">Conocimiento basico en Fisica</h4>
+                <h4 class="habtext">Conocimiento básico en Java</h4>
+                <h4 class="habtext">Conocimiento basico en Phython</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor Mi_trabajo">
+        <h2 class="titulo">Mi trabajo</h2>
+        <div class="Mi_trabajo">
+            <img class="img-mi_work" src="./img/trab.jpg" alt="">
+            <div>
+                <h4 class="trabtxt">Ayudante De Carpinteria</h4>
+                <h4 class="trabtxt">Ayudante de Roofting</h4>
+                <h4 class="trabtxt">Estudiante Universitario</h4>
+            </div>
+        </div>
+
+    </section>
+    <section class="contenedor Mi_curso">
+        <h2 class="titulo">Mis Cursos</h2>
+        <div class="Mi_curso">
+            <img class="img-mi_curso" src="./img/cur.jpg" alt="">
+            <div>
+                <h4 class="curtext">JAVA, PYTHON, C#</h4>
+                <h4 class="curtext">OSHA 30H</h4>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="portafolio">
+        <a href="#proyecto" id= "proyecto"></a>
+        <div class="contenedor">
+            <h2 class="titulo">Portafolio</h2>
+            <div class="galeria-port">
+                <div class="imagen-port">
+                    <img src="img/pro1.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro2.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro3.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro4.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro5.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro6.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro7.jpg" alt="">
+                </div>
+                <div class="imagen-port">
+                    <img src="img/pro8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quedicendemi contenedor">
+        <h2 class="titulo">Que dicen de mi...</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="img/Sol.jpg" alt="">
+                <div class="contenido-texto-card">
+                    <h4>Solange Briones</h4>
+                    <h4>SUPPORT</h4>
+                    <p>No se</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    
+</body>
+
+<form class="form">
+    <a href="#contacto" id="contacto"> </a>
+    <h2>CONTACTANOS</h2>
+    <p type="Nombre:"><input placeholder="Escriba su nombre..."></input></p>
+    <p type="Correo:"><input placeholder="Ingrese su correo para contactarlo..."></input></p>
+    <p type="Mensaje:"><input placeholder="Para que desea contactarnos..."></input></p>
+    <button>Enviar Mensaje</button>
+    <div>
+      <span class="fa fa-phone"></span>001 1023 567
+      <span class="fa fa-envelope-o"></span> contactar@compañia.com
+    </div>
+  </form>
+
+
+</html>
